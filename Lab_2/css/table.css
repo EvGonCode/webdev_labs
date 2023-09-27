@@ -1,0 +1,56 @@
+p {
+    margin: 0;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+.div_name{
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    align-content: center;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.name_panel{
+    min-width: 5%;
+    padding-right: 1%;
+    align-content: center;
+}
+.cat_picture{
+    width: 100%;
+}
+li{
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.li_circle {
+    list-style-type: circle;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.li_circle li {
+    list-style-type: disc;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.scam{
+    font-size: xx-large;
+    color: red;
+}
+.scam_ref{
+    font-size: xx-large;
+    color: red;
+}
+
+table{
+    background-color: #989898;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    min-height: 10vh;
+}

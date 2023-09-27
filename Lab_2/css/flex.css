@@ -1,0 +1,127 @@
+p {
+    margin: 0;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.cat_picture{
+    width: 100%;
+}
+
+li{
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.li_circle {
+    list-style-type: circle;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.li_circle li {
+    list-style-type: disc;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.scam{
+    font-size: xx-large;
+    color: red;
+}
+
+.scam_ref{
+    font-size: xx-large;
+    color: red;
+}
+
+.div_name{
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    align-content: center;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.name_panel{
+    min-width: 5%;
+    padding-right: 1%;
+    align-content: center;
+}
+
+.header {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    background-color: cornflowerblue;
+}
+
+.small_banner1 {
+    width: 100%;
+    min-height: 10vh;
+    background-color: greenyellow;
+}
+
+.main_article {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 70vh;
+    background-color: white;
+}
+
+.right_article {
+    width: 20%;
+    min-height: 80vh;
+    background-color: coral;
+}
+
+.left_article {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 70vh;
+    background-color: coral;
+}
+
+.small_banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: greenyellow;
+}
+
+.footer {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    background-color: cornflowerblue;
+}
+
+.div_center {
+    display: flex;
+    width: 100%;
+}
+
+.div_left_column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+}
+
+.div_center_column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
