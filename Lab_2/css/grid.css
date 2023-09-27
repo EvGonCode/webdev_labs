@@ -58,6 +58,7 @@ li{
     grid-template-columns: 20% 60% 20%;
 }
 .header {
+    align-items: center;
     padding-right: 1%;
     grid-template-areas: 'text name';
     grid-template-columns: 90% 10%;
@@ -92,6 +93,7 @@ li{
     background-color: coral;
 }
 .footer {
+    align-items: center;
     padding-right: 1%;
     grid-template-areas: 'text name';
     grid-template-columns: 90% 10%;
