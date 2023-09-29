@@ -20,6 +20,20 @@ body {
     padding-right: 1%;
     align-content: center;
 }
+
+.text_data{
+    width: 95%;
+    background-color: cornflowerblue;
+}
+.name_data{
+    padding-right: 1%;
+    width: 5%;
+    background-color: cornflowerblue;
+}
+.small_table{
+    height: 10vh;
+    width: 100%;
+}
 .cat_picture{
     width: 100%;
 }
@@ -46,11 +60,62 @@ li{
     color: red;
 }
 
-table{
-    background-color: #989898;
-    border-collapse: collapse;
+table {
+    border-spacing: 0;
+    width: 100%;
+    height: 100vh;
+}
+tr {
+    display: table-row;
     width: 100%;
 }
-th{
-    min-height: 10vh;
+td{
+    border-collapse: collapse;
+    text-align: start;
+
+}
+
+.main_table{
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: cornflowerblue;
+}
+.small_banner1 {
+    width: 20%;
+    height: 10vh;
+    background-color: greenyellow;
+}
+.left_article {
+    vertical-align: top;
+    width: 20%;
+    height: 70vh;
+    background-color: coral;
+}
+.main_article{
+    vertical-align: top;
+    width: 60%;
+    max-height: 70vh;
+    height: 70vh;
+    background-color: white;
+}
+.small_banner2 {
+    width: 60%;
+    height: 10vh;
+    background-color: greenyellow;
+}
+.right_article {
+    vertical-align: top;
+    width: 20%;
+    height: 80vh;
+    background-color: coral;
+}
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: cornflowerblue;
 }

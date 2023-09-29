@@ -61,7 +61,7 @@ li{
     align-items: center;
     padding-right: 1%;
     grid-template-areas: 'text name';
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 95% 5%;
     display: grid;
     min-height: 10vh;
     grid-area: header;
@@ -96,7 +96,7 @@ li{
     align-items: center;
     padding-right: 1%;
     grid-template-areas: 'text name';
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 95% 5%;
     display: grid;
     min-height: 10vh;
     grid-area: footer;
