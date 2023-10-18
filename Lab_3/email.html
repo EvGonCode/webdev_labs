@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/table.css">
+    <title>Page 1</title>
+    <meta name = "description" content="Developed by Honcharov Yevhen">
+    <style>
+        p {
+            margin: 0;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+
+        .div_name {
+            font-size: xx-large;
+            background-color: white;
+            color: black;
+            align-content: center;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .name_panel {
+            min-width: 5%;
+            padding-right: 1%;
+            align-content: center;
+        }
+
+        .text_data {
+            width: 95%;
+            background-color: cornflowerblue;
+        }
+
+        .name_data {
+            padding-right: 1%;
+            width: 5%;
+            background-color: cornflowerblue;
+        }
+
+        .small_table {
+            height: 10vh;
+            width: 100%;
+        }
+
+        .cat_picture {
+            width: 100%;
+        }
+
+        li {
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .li_circle {
+            list-style-type: circle;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .li_circle li {
+            list-style-type: disc;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .scam {
+            font-size: xx-large;
+            color: red;
+        }
+
+        .scam_ref {
+            font-size: xx-large;
+            color: red;
+        }
+
+        table {
+            border-spacing: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+        tr {
+            display: table-row;
+            width: 100%;
+        }
+
+        td {
+            border-collapse: collapse;
+            text-align: start;
+        }
+
+        .main_table {
+            min-width: 100%;
+            min-height: 100vh;
+        }
+
+        .header {
+            width: 100%;
+            height: 10vh;
+            background-color: cornflowerblue;
+        }
+
+        .small_banner1 {
+            width: 20%;
+            height: 10vh;
+            background-color: greenyellow;
+        }
+
+        .left_article {
+            vertical-align: top;
+            width: 20%;
+            height: 70vh;
+            background-color: coral;
+        }
+
+        .main_article {
+            vertical-align: top;
+            width: 60%;
+            max-height: 70vh;
+            height: 70vh;
+            background-color: white;
+        }
+
+        .small_banner2 {
+            width: 60%;
+            height: 10vh;
+            background-color: greenyellow;
+        }
+
+        .right_article {
+            vertical-align: top;
+            width: 20%;
+            height: 80vh;
+            background-color: coral;
+        }
+
+        .footer {
+            width: 100%;
+            height: 10vh;
+            background-color: cornflowerblue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="main_table">
+    <table>
+        <tbody>
+        <tr>
+            <td colspan="3" class="header">
+                <table class="small_table">
+                    <tbody>
+                    <tr>
+                        <td class="text_data"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dignissimos itaque mollitia perferendis quo quos sint ut voluptate voluptatibus. Aut beatae corporis culpa cumque debitis delectus doloribus earum eius est, expedita explicabo facere fugit in iste maxime molestias neque nulla odio omnis praesentium quidem quisquam quod ratione reiciendis vitae. Ad, amet asperiores aspernatur dolore dolorum eligendi expedita illum itaque libero natus provident quasi qui quibusdam quidem quos reiciendis reprehenderit saepe sequi similique, sint sit, totam vel! Ad aliquid at culpa dolores eaque et excepturi fugiat illo in ipsum libero magni molestiae mollitia quam reprehenderit, rerum, soluta tenetur veniam, voluptatum?</td>
+                        <td class="name_data">
+                            <div class="div_name">Name</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="small_banner1"><p class = "scam" align="center">NEW FRESH HITS!!</p></td>
+            <td rowspan="2" class="main_article"><img
+                    class="cat_picture"
+                    src="https://i.imgur.com/q2rsLNG.jpeg"
+                    alt="Nice cat"
+                    usemap="#kitty_ref"
+            />
+                <map name="kitty_ref">
+                    <area
+                            shape="rect"
+                            coords="0, 0, 1220%, 1220%"
+                            href="https://www.youtube.com/watch?v=U2Fjfqm-7g8"
+                    />
+                </map>
+            </td>
+            <td rowspan="3" class="right_article">
+                <p><a href="flex.html">Flex version</a></p>
+                <p><a href="grid.html">Grid version</a></p>
+                <p>Table version</p>
+                <ol>
+                    <li>George Washington</li>
+                    <li>John Adams</li>
+                    <li>Thomas Jefferson</li>
+                    <li>James Madison</li>
+                    <li>James Monroe</li>
+                    <li>John Quincy Adams</li>
+                    <li>Andrew Jackson</li>
+                    <li>Martin Van Buren</li>
+                    <li>William Henry Harrison</li>
+                    <li>John Tyler</li>
+                    <li>James K. Polk</li>
+                    <li>Zachary Taylor</li>
+                    <li>Millard Fillmore</li>
+                    <li>Franklin Pierce</li>
+                    <li>James Buchanan</li>
+                    <li>Abraham Lincoln</li>
+                </ol>
+            </td>
+        </tr>
+        <tr><td rowspan="2" class="left_article"><ul>
+            <li class="li_circle">MOBA
+                <ul>
+                    <li>Defence of the ancients 2</li>
+                    <li>League of legends</li>
+                    <li>Paladins</li>
+                </ul>
+            </li>
+            <li class="li_circle">
+                RTS
+                <ul>
+                    <li>Hearts of iron 4</li>
+                    <li>Factorio</li>
+                </ul>
+            </li>
+            <li class="li_circle">
+                Shooter
+                <ul>
+                    <li>Counter strike 1.6</li>
+                    <li>Call of duty Cold War</li>
+                </ul>
+            </li>
+        </ul></td></tr>
+        <tr><td class="small_banner2"><p>
+            <p align="center"><a class="scam_ref" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                ---->FREE MONEY!!<----
+            </a></p>
+            </p></td></tr>
+        <tr><td colspan="3" class="footer">
+            <table class="small_table">
+                <tbody>
+                <tr>
+                    <td class="text_data"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dignissimos itaque mollitia perferendis quo quos sint ut voluptate voluptatibus. Aut beatae corporis culpa cumque debitis delectus doloribus earum eius est, expedita explicabo facere fugit in iste maxime molestias neque nulla odio omnis praesentium quidem quisquam quod ratione reiciendis vitae. Ad, amet asperiores aspernatur dolore dolorum eligendi expedita illum itaque libero natus provident quasi qui quibusdam quidem quos reiciendis reprehenderit saepe sequi similique, sint sit, totam vel! Ad aliquid at culpa dolores eaque et excepturi fugiat illo in ipsum libero magni molestiae mollitia quam reprehenderit, rerum, soluta tenetur veniam, voluptatum?</td>
+                    <td class="name_data">
+                        <div class="div_name">Name</div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
