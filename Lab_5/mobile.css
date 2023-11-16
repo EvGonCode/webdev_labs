@@ -1,0 +1,117 @@
+:root {
+    --scam: clamp(2rem, 2rem + 0.5vw, 5rem);
+    --scam-ref: clamp(2rem, 2rem + 0.5vw, 5rem);
+    --default-text: clamp(0.625rem, 0.4076rem + 1.15vw, 1.5rem);
+);
+}
+html{
+}
+p {
+    margin: 0;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+body {
+    margin: 0;
+}
+.div_name{
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    align-content: center;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.name_panel{
+    align-content: center;
+    grid-area: name;
+}
+.h_text{
+    grid-area: text;
+    font-size: var(--default-text);
+}
+.cat_picture{
+    width: 100%;
+}
+li{
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.li_circle {
+    list-style-type: circle;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.li_circle li {
+    list-style-type: disc;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.scam{
+    font-size: var(--scam);
+    color: red;
+}
+.scam_ref{
+    font-size: var(--scam-ref);
+    color: red;
+}
+.main_grid{
+    width: min(100%, 1080px);
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+            'header'
+            'small_banner1'
+            'left_article'
+            'main_article'
+            'small_banner2'
+            'right_article'
+            'footer';
+}
+.header {
+    align-items: center;
+    padding-right: 1%;
+    grid-template-areas: 'text name';
+    grid-template-columns: 85% 15%;
+    display: grid;
+    min-height: 4em;
+    grid-area: header;
+    background-color: cornflowerblue;
+}
+.small_banner1 {
+    grid-area: small_banner1;
+    background-color: greenyellow;
+}
+.left_article {
+    font-size: var(--default-text);
+    grid-area: left_article;
+    background-color: coral;
+}
+.main_article {
+    font-size: var(--default-text);
+    grid-area: main_article;
+    background-color: white;
+}
+.small_banner2 {
+    font-size: xxx-large;
+    min-height: 1.1em;
+    grid-area: small_banner2;
+    background-color: greenyellow;
+}
+.right_article {
+    font-size: var(--default-text);
+    grid-area: right_article;
+    background-color: coral;
+}
+.footer {
+    font-size: var(--default-text);
+    align-items: center;
+    padding-right: 1%;
+    grid-template-areas: 'text name';
+    grid-template-columns: 85% 15%;
+    display: grid;
+
+    min-height: 4em;
+    grid-area: footer;
+    background-color: cornflowerblue;
+}

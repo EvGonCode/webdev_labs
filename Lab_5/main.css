@@ -1,0 +1,105 @@
+p {
+    margin: 0;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+.div_name{
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    align-content: center;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+
+.name_panel{
+    align-content: center;
+    grid-area: name;
+}
+.h_text{
+    grid-area: text;
+}
+.cat_picture{
+    width: 100%;
+}
+li{
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.li_circle {
+    list-style-type: circle;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.li_circle li {
+    list-style-type: disc;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.scam{
+    font-size: xx-large;
+    color: red;
+}
+.scam_ref{
+    font-size: xx-large;
+    color: red;
+}
+.main_grid{
+    display: grid;
+    grid-template-areas:
+            'header        header        header'
+            'small_banner1 main_article  right_article'
+            'left_article  main_article  right_article'
+            'left_article  small_banner2 right_article'
+            'footer        footer        footer';
+    grid-template-columns: 20% 60% 20%;
+}
+.header {
+    align-items: center;
+    padding-right: 1%;
+    grid-template-areas: 'text name';
+    grid-template-columns: 95% 5%;
+    display: grid;
+    min-height: 10vh;
+    grid-area: header;
+    background-color: cornflowerblue;
+}
+.small_banner1 {
+    min-height: 10vh;
+    grid-area: small_banner1;
+    background-color: greenyellow;
+}
+.left_article {
+    min-height: 70vh;
+    grid-area: left_article;
+    background-color: coral;
+}
+.main_article {
+    min-height: 70vh;
+    grid-area: main_article;
+    background-color: white;
+}
+.small_banner2 {
+    min-height: 10vh;
+    grid-area: small_banner2;
+    background-color: greenyellow;
+}
+.right_article {
+    min-height: 80vh;
+    grid-area: right_article;
+    background-color: coral;
+}
+.footer {
+    align-items: center;
+    padding-right: 1%;
+    grid-template-areas: 'text name';
+    grid-template-columns: 95% 5%;
+    display: grid;
+    min-height: 10vh;
+    grid-area: footer;
+    background-color: cornflowerblue;
+}
