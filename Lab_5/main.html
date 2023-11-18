@@ -11,6 +11,14 @@
 <body>
 <div class="main_grid">
 
+    <div id="cookieConsentModal" class="modal">
+        <div class="modal-content">
+            <p>This website uses cookies to enhance user experience. Do you consent to the use of cookies?</p>
+            <button id="acceptCookiesBtn">Accept</button>
+            <button id="rejectCookiesBtn">Reject</button>
+        </div>
+    </div>
+
     <div class="header">
         <div class="h_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae
             excepturi ipsam itaque, perferendis quam voluptatem. Ad autem dolorum eius eligendi impedit iusto
@@ -18,9 +26,9 @@
             pariatur, possimus quam, repudiandae sit tempora voluptatibus. Aliquid dolorem fugit laborum omnis
             voluptatibus.
         </div>
-        <div class="name_panel">
-            <h1 align="center" class="div_name">Name</h1>
-        </div>
+        <input class="words_amount" type="number" inputmode="numeric" id="inputWords" placeholder="0">
+        <button class="resize_button" id="resizeButton">Resize Words</button>
+        <button class="swap_button" id="swapButton">Swap Content</button>
     </div>
     <div class="small_banner1">
         <p class="scam" align="center">NEW FRESH HITS!!</p>
@@ -70,7 +78,7 @@
         </p>
     </div>
     <div class="right_article" id="ra">
-        <ol>
+        <ol id="raol">
             <li>George Washington</li>
             <li>John Adams</li>
             <li>Thomas Jefferson</li>
@@ -98,7 +106,6 @@
         <div class="name_panel">
             <h2 align="center" class="div_name">Name</h2>
         </div>
-        <button id="swapButton">Swap Content</button>
     </div>
 
     </div>

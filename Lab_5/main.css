@@ -21,6 +21,26 @@ body {
     word-wrap:break-word;
 }
 
+.swap_button{
+    grid-area: swap_button;
+    font-size: x-large;
+    word-break:break-all;
+    word-wrap:break-word;
+    align-content: center;
+}
+
+.resize_button{
+    grid-area: resize_button;
+    font-size: x-large;
+    word-break:break-all;
+    word-wrap:break-word;
+    align-content: center;
+}
+
+.words_amount{
+    grid-area: words_amount;
+}
+
 .name_panel{
     align-content: center;
     grid-area: name;
@@ -46,7 +66,6 @@ body {
 .button_o{
     grid-area: button_o;
 }
-
 
 .input_fields{
     width: 100%;
@@ -94,8 +113,8 @@ li{
 .header {
     align-items: center;
     padding-right: 1%;
-    grid-template-areas: 'text name';
-    grid-template-columns: 95% 5%;
+    grid-template-areas: 'text words_amount resize_button swap_button';
+    grid-template-columns: 75% 5% 10% 10%;
     display: grid;
     min-height: 10vh;
     grid-area: header;
@@ -150,4 +169,21 @@ li{
     min-height: 10vh;
     grid-area: footer;
     background-color: cornflowerblue;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    text-align: center;
 }
